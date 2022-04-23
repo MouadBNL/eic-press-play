@@ -1,13 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+	</head>
+	<body class="antialiased font-primary">
+		<header class="bg-dark">
+			<div class="container py-2 text-white text-2xl flex items-center justify-between">
+				<nav id="primary-nav">
+					<ul class="flex space-x-16">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Games</a>
+						</li>
+						<li>
+							<a href="#">Rules</a>
+						</li>
+					</ul>
+				</nav>
+
+
+				<a href="#" class="btn">
+					submit
+				</a>
+			</div>
+		</header>
+
+		<section id="hero">
+			<!-- Background image -->
+		</section>
+
+		<div class="separator"></div>
+
+		<section class="py-24 text-white">
+			<div class="container">
+				<h2 class="text-5xl text-center mb-8">Count down until the <span class="text-primary text-glow-primary">start</span> of the game Jam </h2>
+				<div class="flex justify-center space-x-24">
+					<div>
+						<span class="text-6xl md:text-7xl lg:text-9xl text-primary block -mb-3 md:-mb-6 text-glow-primary-xl">10</span>
+						<span class="text-2xl md:text-3xl text-primary text-glow-primary">Days</span>
+					</div>
+					<div>
+						<span class="text-6xl md:text-7xl lg:text-9xl text-primary block -mb-3 md:-mb-6 text-glow-primary-xl">00</span>
+						<span class="text-2xl md:text-3xl text-primary text-glow-primary">HRS</span>
+					</div>
+					<div>
+						<span class="text-6xl md:text-7xl lg:text-9xl text-primary block -mb-3 md:-mb-6 text-glow-primary-xl">15</span>
+						<span class="text-2xl md:text-3xl text-primary text-glow-primary">MIN</span>
+					</div>
+					<div>
+						<span class="text-6xl md:text-7xl lg:text-9xl text-primary block -mb-3 md:-mb-6 text-glow-primary-xl">29</span>
+						<span class="text-2xl md:text-3xl text-primary text-glow-primary">SEC</span>
+					</div>
+				</div>
+
+
+				<div class="mt-16">
+					<img class="mx-auto lg:w-2/3 xl:w-1/3" src="./assets/images/podium.png" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="py-24 text-white">
+			<div class="container">
+				<h2 class="text-5xl mb-16 text-glow-primary">Announcement</h2>
+
+				<div class="space-y-8">
+
+					<article class="flex border-4 border-white bg-primary bg-opacity-10 h-fit">
+						<div style="width: 200px; min-height: 200px;" class="bg-accent glow-accent pt-8">
+							<img class="mx-auto" src="./assets/images/ann.png" alt="Announcement">
+						</div>
+						<div class="p-6 flex-1">
+							<h3 class="text-3xl mb-2 text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+							<p class="font-sans text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio
+							</p>
+						</div>
+					</article>
+
+					<article class="flex border-4 border-white bg-primary bg-opacity-10 h-fit">
+						<div style="width: 200px; min-height: 200px;" class="bg-accent glow-accent pt-8">
+							<img class="mx-auto" src="./assets/images/ann.png" alt="Announcement">
+						</div>
+						<div class="p-6 flex-1">
+							<h3 class="text-3xl mb-2 text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+							<p class="font-sans text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio
+							</p>
+						</div>
+					</article>
+
+					<article class="flex border-4 border-white bg-primary bg-opacity-10 h-fit">
+						<div style="width: 200px; min-height: 200px;" class="bg-accent glow-accent pt-8">
+							<img class="mx-auto" src="./assets/images/ann.png" alt="Announcement">
+						</div>
+						<div class="p-6 flex-1">
+							<h3 class="text-3xl mb-2 text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+							<p class="font-sans text-lg">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio
+							</p>
+						</div>
+					</article>
+
+				</div>
+
+
+			</div>
+		</section>
+
+		<script type="module" src="/main.js"></script>
+	</body>
 </html>
